@@ -69,8 +69,8 @@ shard_dims = {
 def meta_weights_for_nano_model(
     *,
     output_dir: Path = Path("checkpoints/lit-llama"),
-    ckpt_dir: Path = Path("checkpoints/llama/"),
-    tokenizer_path: Path = Path("checkpoints/llama/tokenizer.model"),
+    ckpt_dir: Path = Path("/Volumes/Extreme SSD/LLaMA_WEIGHTS/LLaMA/"),
+    tokenizer_path: Path = Path("/Volumes/Extreme SSD/LLaMA_WEIGHTS/LLaMA/tokenizer.model"),
     model_size: str = "7B",
 ) -> None:
     output_dir = output_dir / model_size

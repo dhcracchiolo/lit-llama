@@ -8,6 +8,8 @@ import torch
 
 from lit_llama import LLaMA, Tokenizer
 from lit_llama.utils import EmptyInitOnDevice
+import os
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 
 
 @torch.no_grad()
